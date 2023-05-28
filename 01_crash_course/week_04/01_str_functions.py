@@ -44,8 +44,9 @@ int("12345")
 "This is another great example".split()
 
 # format()
-print("Hello {}, your lucky number is {}!".format("Stefan", 7))  # converts numbers!
-print("Hello {name}, your lucky number is {number}!".format(number=777, name="Stefan"))  # converts numbers!
+# also converts numbers!
+print("Hello {}, your lucky number is {}!".format("Stefan", 7))
+print("Hello {name}, your lucky number is {number}!".format(number=777, name="Stefan"))
 
 price = 7.5
 with_tax = price * 1.09
